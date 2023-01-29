@@ -1,0 +1,201 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+html, body
+{
+	background-color: #dedede;
+	text-align: center;
+	scroll-behavior: smooth;
+}
+
+a
+{
+	text-decoration:none;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+
+
+h1
+{
+	color: #dddddd;
+	font-size: 10vh;
+}
+
+h2
+{
+	color: #bbbbbb;
+	font-size: 4vh;
+}
+
+h3
+{
+	color: #444444;
+	font-size: 2vw;
+}
+
+
+.navbar
+{
+	background-color: #444444;
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+	z-index: 100;
+	height: 10%;
+}
+
+
+.NavBarListItem a
+{
+	font-size: 20px;
+	color: #dddddd;
+}
+
+.NavBarListItem
+{
+	float: right;
+	padding-right: 20px;
+	margin: auto;
+	padding-top:3vh;
+}
+
+
+
+
+
+
+
+section
+{
+	height: 100%;
+	width: 100%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.MainBackground
+{
+	height:100%;
+	width: 100%;
+	background-image: url(../bilder/html_code.jpg);
+	background-position: center, center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.ScrollDownImg
+{
+	width: 40px;
+	opacity: 0.6;
+	padding-top:7vh;
+}
+
+.ScrollDownImg:hover
+{
+	opacity:0.9;
+}
+
+.ScrollDown
+{
+	padding-top:7vh;
+}
+
+
+#MainHeadLine
+{
+	padding-top: 40vh;
+	padding-bottom: 2vh;
+}
+
+.FormDiv
+{
+	background-color: white;
+	width: 80%;
+	margin: auto;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #666666;
+	box-shadow: 5px 7px #666666;
+	overflow:auto;
+	padding-bottom: 20vh;
+	padding-top: 15vh;
+}
+
+
+.FormHead
+{
+	padding-bottom: 10vh;
+	color: #333333;
+	font-size: 7vh;
+
+}
+
+.PlainTextDiv
+{
+	font-size: 2.5vh;
+	padding-right: 5vw;
+	padding-left: 5vw;
+	line-height: 170%;
+}	
+	
+	
+
+	
+.ShopItem
+{
+	width:20%;
+	margin-left: 10%;
+	box-shadow: 5px 7px #222222;
+	border-style: solid;
+	border-color: #222222;
+	border-width: 1px;
+	float: left;
+}
+
+.ShopImg
+{
+	width: 90%;
+}
+
+.ShopPrice
+{
+	font-size: 1.4vw; 
+}
+
+.ShopInput
+{
+	color: #ffffff;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-size: 3vh;
+	width: 90%;
+	height: 5%;
+	overflow: auto;
+	background-color: #55dd55;
+	border-color: #eeeeee;
+	border-width: 3px;
+	border-radius: 6px;
+}
+
+.ShopInput:hover
+{
+	background-color: #ffffff;
+	border-color: #55dd55;
+	color: #55dd55;
+	font-size: 3.1vh;
+}
+
+
+
+
+
